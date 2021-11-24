@@ -3,13 +3,10 @@ score
 """
 
 def main():
-    score = getscore()
+    score = float(input("Enter your score : "))
     print(score_status(score))
 
-def getscore():
-    score =  float(input("Enter your score : "))
-
-def score_status():
+def score_status(score):
     if score >= 50 and score < 90:
         print("Passable")
     elif score > 90 and score <= 100:
@@ -19,3 +16,4 @@ def score_status():
     else:
         print("Invalid Score")
 
+main()
