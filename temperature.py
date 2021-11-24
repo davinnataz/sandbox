@@ -18,7 +18,7 @@ def main ():
             # Remove the "pass" statement when you are done. It's a placeholder.
             print("Result: {:.2f} F".format(celsius))
         else:
-            print("Invalid option")
+            print("Invalid option")a
         print(MENU)
         choice = input(">>> ").upper()
     print("Thank you.")
