@@ -2,13 +2,17 @@
 checking password
 """
 
-def main ():
-    password = "ShenXiaoting99"
-    if password == getpassword(password):
+
+def main():
+    password = input("Enter your password : ")
+    if getpassword(password):
         print("Access Granted")
-    else :
+    else:
         print("Access Denied")
 
+
 def getpassword(password):
-    password = input("Enter your password : ")
+    return password=="ShenXiaoting99"
+
+
 main()
